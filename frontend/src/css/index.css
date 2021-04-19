@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.product-card {
+  width: 90%;
+  margin: 20px;
+  align-self: baseline;
+  box-shadow:  5px 5px 10px #0e0e0e,
+             -5px -5px 10px #363636;
+  padding: 15px;
+  border-radius: 10px;
+}
+.product-container {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  display: grid;
+}
+.product-image {
+  width: 100%;
+  object-fit: cover;
+}
+#qty {
+  padding-right: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.qty-in {
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 50px;
+  font-size: 15px;
+}
+.standard-button {
+  padding: 5px;
+
+}

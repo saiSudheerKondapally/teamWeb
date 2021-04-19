@@ -6,7 +6,7 @@ const Banner = () => {
         <Jumbotron>
             <Container>
                 <h1>Furniture Store</h1>
-                <p></p>
+                <h4>Find the next great addition to your home!</h4>
             </Container>
         </Jumbotron>
     )
