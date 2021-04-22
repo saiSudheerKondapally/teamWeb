@@ -11,6 +11,12 @@ const Header = () => {
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Link</Nav.Link>
+                        <NavDropdown alignRight title="Categories" id="dropdown-menu-align-right" >
+                            <NavDropdown.Item href="#action/3.1">Couches</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Tables</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Chairs</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Dressers</NavDropdown.Item>
+                        </NavDropdown>
                         <NavDropdown alignRight title="Login" id="dropdown-menu-align-right" >
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

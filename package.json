@@ -1,0 +1,27 @@
+{
+  "name": "group-project",
+  "version": "1.0.0",
+  "description": "Creating a Node backend for a back-up",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "nodemon",
+    "front": "npm start --prefix frontend",
+    "dev": "concurrently \"nodemon\" \"npm start --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiSudheerKondapally/teamWeb.git"
+  },
+  "author": "Team Web",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saiSudheerKondapally/teamWeb/issues"
+  },
+  "homepage": "https://github.com/saiSudheerKondapally/teamWeb#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
